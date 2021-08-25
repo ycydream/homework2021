@@ -11,6 +11,10 @@ const config = {
     url: 'localhost',
     port: 6379,
     password: 'test'
+  },
+  mongdb: {
+    url: 'mongodb://test:test@192.168.47.130:27017',
+    db: 'test'
   }
 }
 
