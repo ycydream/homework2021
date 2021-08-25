@@ -12,11 +12,12 @@ client.on('connect', () => {
 })
 client.auth(config.redis.password);
 
+
 class TestRedis{
   constructor () {
 
   }
-
+  
   testSetString = (key, value) => {
     return new Promise((resolve, reject) => {
       client.set(key, value, function(err, result){
