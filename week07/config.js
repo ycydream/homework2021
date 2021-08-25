@@ -8,9 +8,9 @@ const config = {
     host: 'localhost'
   },
   redis: {
-    url: '116.196.124.180',
-    port: 7000,
-    password: '1*gZGvRg9#A@wJ0BW'
+    url: 'localhost',
+    port: 6379,
+    password: 'test'
   }
 }
 
