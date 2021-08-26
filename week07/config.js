@@ -15,6 +15,10 @@ const config = {
   mongdb: {
     url: 'mongodb://test:test@192.168.47.130:27017',
     db: 'test'
+  },
+  elsticsearch:{
+    host: 'localhost',
+    apiVersion: '6.8',
   }
 }
 
