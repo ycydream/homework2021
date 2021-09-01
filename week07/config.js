@@ -17,7 +17,7 @@ const config = {
     db: 'test'
   },
   elsticsearch:{
-    host: 'localhost',
+    host: 'http://114.67.225.93:9200/',
     apiVersion: '6.8',
   }
 }
